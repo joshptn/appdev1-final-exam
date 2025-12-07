@@ -33,7 +33,7 @@ function Login() {
     }
 
     localStorage.setItem("loggedInUser", JSON.stringify(foundUser));
-    navigate("/todos");
+    navigate("/appdev1-final-exam/todos");
   }
 
   return (
